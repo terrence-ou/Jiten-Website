@@ -8,7 +8,9 @@ const Header = () => {
         <h1 className="text-[1.6rem] font-black">Jiten</h1>
       </div>
       <div>
-        <a>Support</a>
+        <p>
+          <a href="mailto:terrence@clickvisionstudio.com">Support</a>
+        </p>
       </div>
     </div>
   );
