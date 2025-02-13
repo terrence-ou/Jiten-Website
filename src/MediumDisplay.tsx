@@ -25,20 +25,20 @@ const MediumDisplay = () => {
       <div className="bottom-0 flex gap-5">
         {currGroup === 0 && (
           <>
-            <img src={img1} className="fade-in w-80 h-auto" />
-            <img src={img6} className="fade-in w-80 h-auto" />
+            <img src={img1} className="fade-in w-72 h-auto" />
+            <img src={img6} className="fade-in w-72 h-auto" />
           </>
         )}
         {currGroup === 1 && (
           <>
-            <img src={img2} className="fade-in w-80 h-auto" />
-            <img src={img3} className="fade-in w-80 h-auto" />
+            <img src={img2} className="fade-in w-72 h-auto" />
+            <img src={img3} className="fade-in w-72 h-auto" />
           </>
         )}
         {currGroup === 2 && (
           <>
-            <img src={img4} className="fade-in w-80 h-auto" />
-            <img src={img5} className="fade-in w-80 h-auto" />
+            <img src={img4} className="fade-in w-72 h-auto" />
+            <img src={img5} className="fade-in w-72 h-auto" />
           </>
         )}
       </div>

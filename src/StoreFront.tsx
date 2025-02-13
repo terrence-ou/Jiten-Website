@@ -4,8 +4,8 @@ import appIcon from "./assets/icons/app-icon.png";
 
 const StoreFront = () => {
   return (
-    <div className="w-full grid grid-cols-2 gap-10 my-6 justify-center items-end">
-      <div className="flex flex-col justify-center items-center pb-5">
+    <div className="w-full grid grid-cols-2 gap-10 justify-center items-end">
+      <div className="flex flex-col justify-center items-center pb-12">
         <img src={appIcon} className="w-28 h-28" />
         <div className="flex justify-center items-center gap-3">
           <div className="flex flex-col items-center">
