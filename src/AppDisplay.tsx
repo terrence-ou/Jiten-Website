@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { cn } from "./utils";
-import img3 from "./assets/images/3.png";
-import img4 from "./assets/images/4.png";
+import MediumDisplay from "./MediumDisplay";
 
 const AppDisplay = () => {
   const [currSize, setCurrSize] = useState<"small" | "medium" | "large">("medium");
@@ -16,7 +15,7 @@ const AppDisplay = () => {
     }
   };
   return (
-    <div className="flex flex-col items-center gap-5 mt-8">
+    <div className="flex flex-col items-center gap-5 mt-10">
       <div className="relative flex gap-5 justify-center">
         <div
           className={cn(
@@ -40,10 +39,7 @@ const AppDisplay = () => {
           active={currSize === "large"}
         />
       </div>
-      <div className="flex gap-4 justify-center">
-        <img src={img3} className="w-80 h-auto" />
-        <img src={img4} className="w-80 h-auto" />
-      </div>
+      <MediumDisplay />
     </div>
   );
 };
