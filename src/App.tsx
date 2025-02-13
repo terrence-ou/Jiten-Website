@@ -4,7 +4,7 @@ import StoreFront from "./StoreFront";
 function App() {
   return (
     <div className="min-w-dvw min-h-dvh flex justify-center">
-      <div className="w-full max-w-[1440px]">
+      <div className="relative w-full max-w-[1440px]">
         <Header />
         <StoreFront />
       </div>
