@@ -11,7 +11,9 @@ const Header = () => {
         <p>
           <a href="mailto:terrence@clickvisionstudio.com">Contact</a>
         </p>
-        <p>Download</p>
+        <a href="https://apps.apple.com/us/app/jiten/id6741764874" target="_blank">
+          Download
+        </a>
       </div>
     </div>
   );
