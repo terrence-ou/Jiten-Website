@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react";
 import { cn } from "./utils";
-import img1 from "./assets/images/16pro/1.png";
-import img2 from "./assets/images/16pro/2.png";
-import img3 from "./assets/images/16pro/3.png";
-import img4 from "./assets/images/16pro/4.png";
-import img5 from "./assets/images/16pro/5.png";
-import img6 from "./assets/images/16pro/6.png";
+import img1 from "./assets/images/se/1.png";
+import img2 from "./assets/images/se/2.png";
+import img3 from "./assets/images/se/3.png";
+import img4 from "./assets/images/se/4.png";
+import img5 from "./assets/images/se/5.png";
+import img6 from "./assets/images/se/6.png";
 
 let timeout: number;
 
-const MediumDisplay = () => {
+const SmallDisplay = () => {
   const [currGroup, setCurrGroup] = useState<number>(0);
   useEffect(() => {
     clearTimeout(timeout);
@@ -58,4 +58,4 @@ const MediumDisplay = () => {
   );
 };
 
-export default MediumDisplay;
+export default SmallDisplay;

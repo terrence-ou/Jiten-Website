@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { cn } from "./utils";
 import MediumDisplay from "./MediumDisplay";
+import SmallDisplay from "./SmallDisplay";
+import LargeDisplay from "./LargeDisplay";
 
 const AppDisplay = () => {
   const [currSize, setCurrSize] = useState<"small" | "medium" | "large">("medium");
@@ -39,7 +41,9 @@ const AppDisplay = () => {
           active={currSize === "large"}
         />
       </div>
-      <MediumDisplay />
+      {currSize === "small" && <SmallDisplay />}
+      {currSize === "medium" && <MediumDisplay />}
+      {currSize === "large" && <LargeDisplay />}
     </div>
   );
 };
